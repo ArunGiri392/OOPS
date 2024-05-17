@@ -1,7 +1,7 @@
 class Shape:
     pie = 3.14
     def __init__(self):
-        pass
+       pass
 
     def area(self):
         pass
@@ -28,7 +28,8 @@ def printarea(Shape):
     print(Shape.area())
 
 circle = Circle(2)
-rectangle = Rectangle(3,4)
+rectangle = Rectangle(3)
+
 
 printarea(circle)
 printarea(rectangle)
